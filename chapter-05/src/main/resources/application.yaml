@@ -1,0 +1,14 @@
+spring:
+  application.name: ${vcap.application.name:mongodb-sink}
+  autoconfigure.exclude: org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfiguration
+  mongodb:
+    embedded:
+      version: 3.4.0
+
+info.app:
+  name: mongodb-sink-rabbit
+  description: Spring Cloud Stream Mongodb Processor Rabbit Binder Application
+  version: 1.0.0.BUILD-SNAPSHOT
+
+management.endpoints.web.exposure.include: health,info,bindings
+

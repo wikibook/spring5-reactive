@@ -1,0 +1,40 @@
+rootProject.name = 'reactive-programming-in-spring-5.0'
+
+include "chapter-01"
+
+include "chapter-02"
+
+include "chapter-03/news-service"
+include "chapter-03/jdk9"
+include "chapter-03/vert.x"
+include "chapter-03/conversion_problem"
+include "chapter-03/push.vs.pull"
+include "chapter-03/rxjava-reactivestreams-ratpack"
+include "chapter-03/async.vs.reactive"
+
+include "chapter-04"
+
+include "chapter-05"
+
+include "chapter-06/samples"
+include "chapter-06/functional-spring-boot"
+include "chapter-06/security-samples"
+
+include "chapter-07/section-01-jdbc"
+include "chapter-07/section-02-jpa"
+include "chapter-07/section-03-mongo"
+include "chapter-07/section-04-rx-mongo"
+include "chapter-07/section-05-rx-mongo-tx"
+include "chapter-07/section-06-r2dbc"
+include "chapter-07/section-07-rx-webflux"
+include "chapter-07/section-08-rx-dbs"
+include "chapter-07/section-09-rx-sync"
+include "chapter-07/section-10-rxjava2-jdbc"
+
+include "chapter-08/dataflow/mongodb-processor"
+include "chapter-08/cloud-stream"
+include "chapter-08/cloud-function"
+
+include "chapter-09"
+
+include "chapter-10"
